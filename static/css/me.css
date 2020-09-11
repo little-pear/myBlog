@@ -96,6 +96,11 @@ body {
   margin-bottom: 0.5em !important;
 }
 
+.m-margin-tb-small {
+  margin-top: 0.5em !important;
+  margin-bottom: 0.5em !important;
+}
+
 /** opacity */
 .m-opacity-mini {
   opacity: 0.8 !important;
