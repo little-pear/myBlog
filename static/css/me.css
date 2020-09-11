@@ -1,5 +1,5 @@
 body {
-  background: url('../images/blue-snow.png');
+  background: url("../images/blue-snow.png");
 }
 
 .m-padded-mini {
@@ -128,6 +128,11 @@ body {
   margin: auto !important;
 }
 
+/** shadow */
+.m-shadow-small {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important;
+}
+
 /** color */
 .m-black {
   color: black;
@@ -147,6 +152,10 @@ body {
   }
 
   .m-padded-lr-responsive {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .m-mobile-lr-clear {
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
